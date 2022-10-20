@@ -3,7 +3,7 @@
 
 ## Description
 
-Basic Bot(ch) will respond with reciprocating YEEE when you yee!
+Basic Bot(ch) will respond with reciprocating YEEE when you yee!  
 Written in Python 3.10.8!
 
 ## To Use Basic Bot(ch):
