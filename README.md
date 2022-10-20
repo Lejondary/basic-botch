@@ -1,4 +1,4 @@
-#A Lejondary Discord Basic Bot(ch)!
+# A Lejondary Discord Basic Bot(ch)!
 
 ## Description
 
@@ -20,7 +20,7 @@ Written in Python 3.10.8!
    >`https://docs.discordbotstudio.org/setting-up-dbs/finding-your-bot-token`
 
 -  Run the Python Script on your OS
-   >`$ py -3 example_bot.py` for Windows
+   >`$ py -3 example_bot.py` for Windows  
    >`$ python3 example_bot.py` for non-Windows
 
 -  Invite Basic Bot(ch) to your Server
