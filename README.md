@@ -29,5 +29,6 @@ Written in Python 3.10.8!
 - [ ] backend event tells me when logged out
 - [ ] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
 - [x] env file for token encapsulation
-- [ ] env file prefix messages
+- [x] env file prefix messages
 - [ ] env file owner id recognition 
+- [ ] encapsulated organization
