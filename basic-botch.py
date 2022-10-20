@@ -1,4 +1,11 @@
+#Imports
 import discord
+from discord.ext import commands
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv('.env')
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -17,4 +24,4 @@ async def on_message(message):
     if message.content.startswith('yee!'):
         await message.channel.send('YEEE!')
 
-client.run('token')
+client.run(os.getenv('BOT_TOKEN'))
