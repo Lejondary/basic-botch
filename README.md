@@ -1,5 +1,6 @@
 # A Lejondary Discord Basic Bot(ch)!
 
+
 ## Description
 
 Basic Bot(ch) will respond with reciprocating YEEE when you yee!
@@ -9,23 +10,17 @@ Written in Python 3.10.8!
 
 -  Use Python 3.8 or higher
    >`https://www.python.org/downloads/`
-
 -  Install discord.py library dependency
    >`https://discordpy.readthedocs.io/en/latest/intro.html`
-
 -  Create a Discord Bot Account
    >`https://discordpy.readthedocs.io/en/stable/discord.html#`
-
 -  Locate and Copy Discord Bot Login Token to Insert into Script
    >`https://docs.discordbotstudio.org/setting-up-dbs/finding-your-bot-token`
-
 -  Run the Python Script on your OS
    >`$ py -3 example_bot.py` for Windows  
    >`$ python3 example_bot.py` for non-Windows
-
 -  Invite Basic Bot(ch) to your Server
    >`https://discordpy.readthedocs.io/en/stable/discord.html#inviting-your-bot`
-
 ## TODO
 
 - [ ] botch accepts and responds to any incarnation of yee
