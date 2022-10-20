@@ -21,10 +21,12 @@ Written in Python 3.10.8!
    >`$ python3 example_bot.py` for non-Windows
 -  Invite Basic Bot(ch) to your Server
    >`https://discordpy.readthedocs.io/en/stable/discord.html#inviting-your-bot`
+
 ## TODO
 
 - [ ] botch accepts and responds to any incarnation of yee
-- [ ] backend tells me when logged in
+- [ ] backend event tells me when logged in
+- [ ] backend event tells me when logged out
 - [ ] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
 - [ ] config file for token encapsulation
 
