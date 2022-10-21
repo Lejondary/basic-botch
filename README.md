@@ -25,11 +25,9 @@ Written in Python 3.10.8!
 ## TODO
 
 - [ ] botch accepts and responds to any incarnation of yee
-- [ ] backend event tells me when logged in
-- [ ] backend event tells me when logged out
 - [ ] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
-- [x] env file for token encapsulation
-- [x] env file prefix messages
 - [ ] env file owner id recognition 
-- [x] encapsulated organization
 - [ ] backend handle logging
+- [ ] events into discord cogs
+- [ ] botch into discord extensions w/ cogs
+- [ ] botch backend when logged in/out
