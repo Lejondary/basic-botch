@@ -3,12 +3,12 @@ from discord.ext import commands
 
 import asyncio
 import os
-import constants as const
+import constant
 
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix=const.PREFIX, description="I'm a basic botch.", intents=intents)
+bot = commands.Bot(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)
 
 #def main():
     #@some event
@@ -24,7 +24,7 @@ bot = commands.Bot(command_prefix=const.PREFIX, description="I'm a basic botch."
 #if __name__ == '__main__':
     #main()
 
-bot.run(const.TOKEN)
+bot.run(constant.TOKEN)
     #if no token error
         #print error msg
 
