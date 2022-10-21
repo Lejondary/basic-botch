@@ -19,6 +19,8 @@ bot = commands.Bot(command_prefix=const.PREFIX, description="I'm a basic botch."
 
     #bot.run(constants.TOKEN)
 
+#script vs. imported as module
+#will run vs. only def runs
 #if __name__ == '__main__':
     #main()
 
