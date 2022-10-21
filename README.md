@@ -31,4 +31,5 @@ Written in Python 3.10.8!
 - [x] env file for token encapsulation
 - [x] env file prefix messages
 - [ ] env file owner id recognition 
-- [ ] encapsulated organization
+- [x] encapsulated organization
+- [ ] backend handle logging
