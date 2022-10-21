@@ -12,3 +12,9 @@ async def on_message(message):
 
     if message.content.startswith(basic_botch.prefix):
         await message.channel.send('YEEE!')
+
+#config = {
+#   **dotenv_values(".env.shared"),  # load shared development variables
+#    **dotenv_values(".env.secret"),  # load sensitive variables
+#    **os.environ,  # override loaded values with environment variables
+#}
