@@ -5,11 +5,13 @@ import asyncio
 import os
 import constants
 
+intents = discord.Intents.default()
+intents.message_content = True
+
+bot = commands.Bot(command_prefix=constants.PREFIX, description="I'm a basic botch.", intents=intents)
+
 def main():
-    intents = discord.Intents.default()
-    intents.message_content = True
-    client = discord.Client(intents=intents)
-    client.run(constants.TOKEN)
+    bot.run(constants.TOKEN)
 
 if __name__ == '__main__':
     main()
