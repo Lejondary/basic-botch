@@ -10,6 +10,8 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)
 
+bot.load_extension('events')
+
 #def main():
     #@some event
     #call events.py
