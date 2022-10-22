@@ -31,3 +31,4 @@ Written in Python 3.10.8!
 - [ ] events into discord cogs
 - [ ] botch into discord extensions w/ cogs
 - [ ] botch backend when logged in/out
+- [ ] import asyncio way
