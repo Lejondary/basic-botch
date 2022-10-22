@@ -10,7 +10,15 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)
 
-bot.load_extension('test')
+@bot.event
+async def on_ready():
+    print(f'Logged in as {bot.user}')
+
+@bot.command()
+async def load(ctx, extension):
+    await bot.load_extension(f'basic_botch.test')
+    print(f'test loaded')
+
 
 #def main():
     #@some event
@@ -26,7 +34,8 @@ bot.load_extension('test')
 #if __name__ == '__main__':
     #main()
 
-bot.run(constant.TOKEN)
+asyncio.run(bot.run(constant.TOKEN))
+#bot.run(constant.TOKEN)
     #if no token error
         #print error msg
 

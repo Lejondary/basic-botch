@@ -1,4 +1,4 @@
-import asyncio
+#import asyncio
 import constant
 from discord.ext import commands
 
@@ -6,20 +6,19 @@ from discord.ext import commands
 # Handles Messages and Responses
 
 class Yee(commands.Cog):
-
     def __init__(self, bot):
-        self.bot = bot
+         self.bot = bot
         
     @commands.Cog.listener()
     async def on_ready(self):
-        print("I'm ready for some YEEs")
+        await self.bot.send(f"I'm ready for some YEEs")
 
         #if message.content.startwith(constant.PREFIX):
         #    await message.channel.send('YEEE!')
 
     @commands.command()
-    async def yee(self,ctx):
-        await ctx.send(f'Yee!')
+    async def yee(self):
+        await self.bot.send(f'Yee!')
 
 #class Glossary(commands.Cog):
 #    def __init__(self, bot):
@@ -31,8 +30,8 @@ class Yee(commands.Cog):
 #        commands = cog.get_commands()
 #        print([c.name for c in commands])
 
-def setup(bot):
-    bot.add_cog(Yee(bot))
+async def setup(bot):
+    await bot.add_cog(Yee(bot))
 #    bot.add_cog(Glossary(bot))
 
 #@client.event
