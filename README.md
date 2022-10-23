@@ -36,3 +36,4 @@ Written in Python 3.10.8!
 - [ ] auto load cogs instead of manual
 - [ ] pip pretty help
 - [ ] unload capability
+- [ ] env.shared and env.secret?
