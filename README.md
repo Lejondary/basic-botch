@@ -32,3 +32,7 @@ Written in Python 3.10.8!
 - [ ] botch into discord extensions w/ cogs
 - [ ] botch backend when logged in/out
 - [ ] import asyncio way
+- [ ] cogs folder
+- [ ] auto load cogs instead of manual
+- [ ] pip pretty help
+- [ ] unload capability
