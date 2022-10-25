@@ -28,10 +28,10 @@ Written in Python 3.10.8!
 - [ ] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
 - [ ] env file owner id recognition 
 - [x] backend handle logging (figured out)
-- [ ] botch into discord extensions w/ cogs
+- [x] botch into discord extensions w/ cogs
 - [x] botch backend when logged in/out
 - [x] cogs folder
-- [ ] auto load cogs instead of manual
+- [x] auto load cogs instead of manual
 - [ ] pip pretty help
 - [ ] env.shared and env.secret?
 - [x] refactor botch w/ async and main function

@@ -16,7 +16,7 @@ class BasicBotch(commands.Bot):
         print(f'Logged in as {self.user} on Discord.', flush = True)
 
         # Load extensions in Cogs folder
-        #await self.load_extension('my_extension')
+        await self.load_extension('cogs.test')
 
 botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)
 botch.run(constant.TOKEN)
