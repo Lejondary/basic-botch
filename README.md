@@ -30,11 +30,11 @@ Written in Python 3.10.8!
 - [ ] backend handle logging
 - [x] events into discord cogs
 - [ ] botch into discord extensions w/ cogs
-- [ ] botch backend when logged in/out
+- [x] botch backend when logged in/out
 - [x] cogs folder
 - [ ] auto load cogs instead of manual
 - [ ] pip pretty help
 - [ ] unload capability
 - [ ] env.shared and env.secret?
-- [ ] refactor botch w/ async and main function
+- [x] refactor botch w/ async and main function
 

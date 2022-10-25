@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 
+import sys
 import asyncio
 import os
 import constant
@@ -13,12 +14,12 @@ import constant
 
 class MyClient(discord.Client):
     async def setup_hook(self):
-        print('Setting Up!')
+        print(f'Setting Up!', flush = True)
 
 client = MyClient(intents=discord.Intents.default())
 
 async def main():
-    print('Starting!')
+    print(f'Starting!')
     # Start Bot
     async with client:
         await client.start(constant.TOKEN)
