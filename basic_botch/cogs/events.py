@@ -2,6 +2,7 @@ import discord
 import constant
 from discord.ext import commands
 
+# Yee Event 
 class Yee(commands.Cog):
     def __init__(self, bot):
          self.bot = bot
@@ -14,7 +15,8 @@ class Yee(commands.Cog):
 
         #if message.content.startWith(constant.PREFIX):
         #    await message.channel.send('YEEE!')
-
+    
+    # Can YEEE! in any channel
     @commands.command()
     async def yee(self, ctx):
         await ctx.send(f'YEEE!')
