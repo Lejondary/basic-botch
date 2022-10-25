@@ -13,10 +13,12 @@ class BasicBotch(commands.Bot):
 
     # Setups the bot before websocket login 
     async def setup_hook(self):
-        print(f'Logged in as {self.user} on Discord.', flush = True)
+        print(f'Logged in as {self.user} on Discord.\n', flush = True)
 
         # Load extensions in Cogs folder
+        print(f'Loading Cogs...\n')
         await self.load_extension('cogs.test')
+        print(f'Finished Loading Cogs!\n')
 
 botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)
 botch.run(constant.TOKEN)
