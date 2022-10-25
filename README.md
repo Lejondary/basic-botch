@@ -28,12 +28,13 @@ Written in Python 3.10.8!
 - [ ] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
 - [ ] env file owner id recognition 
 - [ ] backend handle logging
-- [ ] events into discord cogs
+- [x] events into discord cogs
 - [ ] botch into discord extensions w/ cogs
 - [ ] botch backend when logged in/out
-- [ ] import asyncio way
-- [ ] cogs folder
+- [x] cogs folder
 - [ ] auto load cogs instead of manual
 - [ ] pip pretty help
 - [ ] unload capability
 - [ ] env.shared and env.secret?
+- [ ] refactor botch w/ async and main function
+
