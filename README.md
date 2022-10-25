@@ -24,8 +24,8 @@ Written in Python 3.10.8!
 
 ## TODO
 
-- [ ] botch accepts and responds to any incarnation of yee
-- [ ] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
+- [ ] make botch commands case insensitive
+- [x] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
 - [ ] env file owner id recognition 
 - [x] backend handle logging (figured out)
 - [x] botch into discord extensions w/ cogs
@@ -35,4 +35,6 @@ Written in Python 3.10.8!
 - [ ] pip pretty help
 - [ ] env.shared and env.secret?
 - [x] refactor botch w/ async and main function
-
+- [ ] botch load all cogs loop
+- [ ] update To Use Basic Bot(ch) section
+- [ ] input yee command description

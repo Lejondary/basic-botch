@@ -17,7 +17,8 @@ class BasicBotch(commands.Bot):
 
         # Load extensions in Cogs folder
         print(f'Loading Cogs...\n')
-        await self.load_extension('cogs.test')
+        #await self.load_extension('cogs.test')
+        await self.load_extension('cogs.events')
         print(f'Finished Loading Cogs!\n')
 
 botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)

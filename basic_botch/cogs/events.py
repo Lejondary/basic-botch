@@ -1,9 +1,6 @@
-#import asyncio
+import discord
 import constant
 from discord.ext import commands
-
-
-# Handles Messages and Responses
 
 class Yee(commands.Cog):
     def __init__(self, bot):
@@ -11,29 +8,16 @@ class Yee(commands.Cog):
         
     @commands.Cog.listener()
     async def on_ready(self):
-        await self.bot.send(f"I'm ready for some YEEs")
+        print(f'Basic Bot(ch) Online to YEEE!\n', flush = True)
+        channel = self.bot.get_channel(1032366477661188166) # Channel ID input
+        await channel.send(f"Basic Bot(ch) online to YEEE!")
 
-        #if message.content.startwith(constant.PREFIX):
+        #if message.content.startWith(constant.PREFIX):
         #    await message.channel.send('YEEE!')
 
     @commands.command()
-    async def yee(self):
-        await self.bot.send(f'Yee!')
-
-#class Glossary(commands.Cog):
-#    def __init__(self, bot):
-#        self.bot = bot
-#        
-#    @commands.command(name='glossary')
-#    #if message.content.startwith(constant.PREFIX):
-#        cog = bot.get_cog('Yee')
-#        commands = cog.get_commands()
-#        print([c.name for c in commands])
+    async def yee(self, ctx):
+        await ctx.send(f'YEEE!')
 
 async def setup(bot):
     await bot.add_cog(Yee(bot))
-#    bot.add_cog(Glossary(bot))
-
-#@client.event
-#async def on_ready():
-#    print(f'We have logged in as {client.user}')
