@@ -9,11 +9,13 @@ import constant
 
 #bot = discord.Client()(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)
 
-client = discord.Client(intents=discord.Intents.default())
+#client = discord.Client(intents=discord.Intents.default())
 
-#class MyClient(client):
-#    async def setup_hook(self):
-#        print('Setting Up!')
+class MyClient(discord.Client):
+    async def setup_hook(self):
+        print('Setting Up!')
+
+client = MyClient(intents=discord.Intents.default())
 
 async def main():
     print('Starting!')
