@@ -25,16 +25,9 @@ Written in Python 3.10.8!
 ## TODO
 
 - [ ] make botch commands case insensitive
-- [x] botch announces to channel when online for YEEEs (must be able to specify easily if user desires)
 - [ ] env file owner id recognition 
-- [x] backend handle logging (figured out)
-- [x] botch into discord extensions w/ cogs
-- [x] botch backend when logged in/out
-- [x] cogs folder
-- [x] auto load cogs instead of manual
 - [ ] pip pretty help
 - [ ] env.shared and env.secret?
-- [x] refactor botch w/ async and main function
 - [ ] botch load all cogs loop
 - [ ] update To Use Basic Bot(ch) section
 - [ ] input yee command description
