@@ -1,35 +1,38 @@
-# A Lejondary Discord Basic Bot(ch)!
-
+<h1 align="center">A Lejondary Discord Basic Bot(ch)</h1>
 
 ## Description
 
 Basic Bot(ch) will respond with reciprocating YEEE when you yee!  
-Written in Python 3.10.8!
 
-## To Use Basic Bot(ch):
+Built using the Discord library, discord.py, utilizing the Discord API.  
+`https://discordpy.readthedocs.io/en/stable/`   
+
+Python 3.10.8 is currently supported.   
+
+## Installation
 
 -  Use Python 3.8 or higher
    >`https://www.python.org/downloads/`
--  Install discord.py library dependency
+-  Ensure that you have pip installed:
+   >`https://pip.pypa.io/en/stable/getting-started/`
+   >`https://pip.pypa.io/en/stable/installation/`
+-  Install dotenv from PyPI with the following command:
+   >`pip install python-dotenv`
+-  Install Discord library, discord.py 
    >`https://discordpy.readthedocs.io/en/latest/intro.html`
 -  Create a Discord Bot Account
    >`https://discordpy.readthedocs.io/en/stable/discord.html#`
--  Locate and Copy Discord Bot Login Token to Insert into Script
+-  Locate and Copy Discord Bot Login Token 
    >`https://docs.discordbotstudio.org/setting-up-dbs/finding-your-bot-token`
--  Run the Python Script on your OS
+-  Run the Python file on your OS
    >`$ py -3 example_bot.py` for Windows  
    >`$ python3 example_bot.py` for non-Windows
 -  Invite Basic Bot(ch) to your Server
    >`https://discordpy.readthedocs.io/en/stable/discord.html#inviting-your-bot`
 
+## To Use Basic Bot(ch)
+
 ## TODO
 
-- [x] make botch commands case insensitive
-- [x] env file owner id recognition 
-- [x] backend prints creator username using env file
 - [ ] pip pretty help
-- [ ] env.shared and env.secret?
-- [x] botch load all cogs loop
-- [ ] update To Use Basic Bot(ch) section
-- [x] input yee command description
-- [x] botch unload extensions before log off for clean up
+- [x] update Basic Bot(ch) README 
