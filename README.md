@@ -32,3 +32,4 @@ Written in Python 3.10.8!
 - [ ] botch load all cogs loop
 - [ ] update To Use Basic Bot(ch) section
 - [ ] input yee command description
+- [ ] botch unload extensions before log off for clean up

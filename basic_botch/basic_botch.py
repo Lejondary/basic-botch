@@ -19,7 +19,6 @@ class BasicBotch(commands.Bot):
         print(f'-----------------\nLogged in as {self.user} on Discord!\n-----------------', flush = True)
 
         # Fetches and prints owner username from imported ID with API call 
-        self.owner_id = constant.OWNER # Imported owner ID from .env file 
         owner = await self.fetch_user(self.owner_id) # Retrieves discord username from owner ID
         print(f'-----------------\nHerro, I was created by {owner}!\n-----------------\n')
 
@@ -29,8 +28,8 @@ class BasicBotch(commands.Bot):
         await self.load_extension('cogs.events')
         print(f'-----------------\nFinished Loading Cogs!\n-----------------\n')
 
-# Instantiates bot and defines command prefix, description, required intents, and command case sentitivity
-botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents, case_insensitive=True)
+# Instantiates bot and defines command prefix, description, required intents, owner ID, and command case sentitivity
+botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents, owner_id = constant.OWNER, case_insensitive=True)
 
 # Runs the bot after setup completion
 botch.run(constant.TOKEN)
