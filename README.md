@@ -30,16 +30,19 @@ Python 3.10.8 and higher is currently supported.
 ## Setup
 
 -  Clone the repository on your machine  
-   >https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+   >`https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository`
 -  Create a .env file in the `basic_botch/` directory  
-   >Make these 3 variables and insert your information  
+   >Make these 3 variables and insert your information:   
    ```bash
    BOT_TOKEN='YourToken'
    OWNER='YourDiscordID' # Numerical ID
    PREFIX='YourPrefix'
    ```
    >Save the file  
-   >IMPORTANT: Ensure that you add '.env' to your gitignore if you plan to share it on github!
+-  IMPORTANT: Add the '.env' file to your .gitignore  
+   >You must complete this step if you plan on sharing your code!  
+-  OPTIONAL:If you want Basic Bot(ch) to announce its online status to a specific channel:  
+   >On line 14 of `basic_botch/cogs/yee.py` file, input the desired channel's ID  
 -  Run the `basic_botch.py` file on your OS
    >`$ py -3 basic_botch.py` for Windows  
    >`$ python3 basic_botch.py` for non-Windows

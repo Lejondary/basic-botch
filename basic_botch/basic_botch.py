@@ -22,7 +22,7 @@ class BasicBotch(commands.Bot):
         owner = await self.fetch_user(self.owner_id) # Retrieves discord username from owner ID
         print(f'-----------------\nHerro, I was created by {owner}!\n-----------------\n')
 
-        # Loops through Cogs folder to Load all extensions ending in .py 
+        # Loops through Cogs folder to load all extensions ending in .py 
         #print(f'-----------------\nLoading Cogs...\n-----------------\n')
         for filename in os.listdir('./cogs'):
             if filename.endswith('.py'):
