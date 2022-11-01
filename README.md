@@ -39,9 +39,9 @@ Python 3.10.8 and higher is currently supported.
    PREFIX='YourPrefix'
    ```
    >Save the file  
--  IMPORTANT: Add the '.env' file to your .gitignore  
+-  `IMPORTANT:` Add the '.env' file to your .gitignore file   
    >You must complete this step if you plan on sharing your code!  
--  OPTIONAL:If you want Basic Bot(ch) to announce its online status to a specific channel:  
+-  `OPTIONAL:` If you want Basic Bot(ch) to announce its online status to a specific channel:  
    >On line 14 of `basic_botch/cogs/yee.py` file, input the desired channel's ID  
 -  Run the `basic_botch.py` file on your OS
    >`$ py -3 basic_botch.py` for Windows  
