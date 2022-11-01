@@ -25,16 +25,16 @@ class BasicBotch(commands.Bot):
         # Load extensions in Cogs folder
         print(f'-----------------\nLoading Cogs...\n-----------------\n')
         #await self.load_extension('cogs.test')
-        await self.load_extension('cogs.events')
+        await self.load_extension('cogs.yee')
         print(f'-----------------\nFinished Loading Cogs!\n-----------------\n')
-
+    
 # Instantiates bot and defines command prefix, description, required intents, owner ID, and command case sentitivity
 botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents, owner_id = constant.OWNER, case_insensitive=True)
 
 # Runs the bot after setup completion
-botch.run(constant.TOKEN)
+botch.run(constant.TOKEN, reconnect = True)
 
-# Notifies when bot has logged off and disconnected from Discord 
+# Notifies when bot has stopped running, logged off, and disconnected from Discord 
 print(f'-----------------\nLogged out of {botch.user} on Discord!\n-----------------\n')
 
 # Asynchronous setup AFTER bot login
