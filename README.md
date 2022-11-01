@@ -29,7 +29,7 @@ Written in Python 3.10.8!
 - [x] backend prints creator username using env file
 - [ ] pip pretty help
 - [ ] env.shared and env.secret?
-- [ ] botch load all cogs loop
+- [x] botch load all cogs loop
 - [ ] update To Use Basic Bot(ch) section
 - [x] input yee command description
 - [x] botch unload extensions before log off for clean up
