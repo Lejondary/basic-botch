@@ -31,5 +31,5 @@ Written in Python 3.10.8!
 - [ ] env.shared and env.secret?
 - [ ] botch load all cogs loop
 - [ ] update To Use Basic Bot(ch) section
-- [ ] input yee command description
-- [ ] botch unload extensions before log off for clean up
+- [x] input yee command description
+- [x] botch unload extensions before log off for clean up
