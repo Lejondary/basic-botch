@@ -24,7 +24,7 @@ Written in Python 3.10.8!
 
 ## TODO
 
-- [ ] make botch commands case insensitive
+- [x] make botch commands case insensitive
 - [x] env file owner id recognition 
 - [x] backend prints creator username using env file
 - [ ] pip pretty help

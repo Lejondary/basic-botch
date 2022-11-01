@@ -29,8 +29,8 @@ class BasicBotch(commands.Bot):
         await self.load_extension('cogs.events')
         print(f'-----------------\nFinished Loading Cogs!\n-----------------\n')
 
-# Defines bot's command prefix, description, and intents
-botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents)
+# Instantiates bot and defines command prefix, description, required intents, and command case sentitivity
+botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents, case_insensitive=True)
 
 # Runs the bot after setup completion
 botch.run(constant.TOKEN)
