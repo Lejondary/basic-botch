@@ -7,7 +7,7 @@ Basic Bot(ch) will respond with reciprocating YEEE when you yee!
 Built using the Discord library, discord.py, utilizing the Discord API.  
 `https://discordpy.readthedocs.io/en/stable/`   
 
-Python 3.10.8 is currently supported.   
+Python 3.10.8 and higher is currently supported.   
 
 ## Installation
 
@@ -36,7 +36,7 @@ Python 3.10.8 is currently supported.
    OWNER='YourDiscordID' # Numerical ID
    PREFIX='YourPrefix'
    ```
-   >Save the file
+   >Save the file  
    >IMPORTANT: Ensure that you add '.env' to your gitignore if you plan to share it on github!
 -  Run the Python file on your OS
    >`$ py -3 example_bot.py` for Windows  
@@ -46,9 +46,8 @@ Python 3.10.8 is currently supported.
 ## To Use Basic Bot(ch):
 
 -  Commands:
-   >yee
+   >yee - Basic Bot(ch) will YEEE! in the channel where the command was called  
 
 ## TODO
 
 - [ ] pip pretty help
-- [x] update Basic Bot(ch) README 
