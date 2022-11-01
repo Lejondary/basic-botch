@@ -9,6 +9,6 @@ load_dotenv('.env')
 #    **os.environ,  # override loaded values with environment variables
 #}
 
-PREFIX = os.getenv('PREFIX')
 TOKEN = os.getenv('BOT_TOKEN')
-
+OWNER = os.getenv('OWNER')
+PREFIX = os.getenv('PREFIX')
