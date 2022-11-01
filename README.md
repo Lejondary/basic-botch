@@ -14,7 +14,7 @@ Python 3.10.8 is currently supported.
 -  Use Python 3.8 or higher
    >`https://www.python.org/downloads/`
 -  Ensure that you have pip installed:
-   >`https://pip.pypa.io/en/stable/getting-started/`
+   >`https://pip.pypa.io/en/stable/getting-started/`  
    >`https://pip.pypa.io/en/stable/installation/`
 -  Install dotenv from PyPI with the following command:
    >`pip install python-dotenv`
@@ -30,7 +30,19 @@ Python 3.10.8 is currently supported.
 -  Invite Basic Bot(ch) to your Server
    >`https://discordpy.readthedocs.io/en/stable/discord.html#inviting-your-bot`
 
-## To Use Basic Bot(ch)
+## Setup
+
+-  Create a .env file in your bot's root directory
+   >Make 3 variables and insert your corresponding information  
+   ```bash
+   BOT_TOKEN='YourToken'
+   OWNER='YourDiscordID'
+   PREFIX='YourPrefix'
+   ```
+
+   Ensure that you add '.env' to your gitignore if you plan to share it on github!
+
+## To Use Basic Bot(ch):
 
 ## TODO
 
