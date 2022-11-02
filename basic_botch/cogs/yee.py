@@ -25,4 +25,5 @@ async def setup(bot):
 
 # Notifies when extension has unloaded
 async def teardown(bot):
+    await bot.remove_cog(Yee(bot))
     print(f'~~~~~~~~~~~~~~~~~\nYee Cog Unloaded!\n~~~~~~~~~~~~~~~~~\n')
