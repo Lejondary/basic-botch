@@ -21,7 +21,11 @@ Python 3.8 and higher is currently supported.
    >`https://pip.pypa.io/en/stable/installation/`
 -  Install dotenv from PyPI with the following command:
    >`pip install python-dotenv`
--  Install the Discord library discord.py 
+   >`https://pypi.org/project/python-dotenv/`
+-  Install discord-pretty-help from PyPI with the following command:
+   >`pip install discord-pretty-help`
+   >`https://pypi.org/project/discord-pretty-help/`
+-  Install the Discord library discord.py
    >`https://discordpy.readthedocs.io/en/latest/intro.html`
 -  Create a Discord Bot Account
    >`https://discordpy.readthedocs.io/en/stable/discord.html#`
@@ -58,4 +62,5 @@ Python 3.8 and higher is currently supported.
 
 ## TODO
 
-- [ ] pip pretty help
+- [x] pip pretty help
+- [ ] fix unloading procedure
