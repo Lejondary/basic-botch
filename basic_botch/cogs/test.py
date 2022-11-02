@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 # Test Cog 
-class Test(commands.Cog, description='Test description'):
+class Test(commands.Cog, description='Test category description.'):
     def _init__(self, bot):
         self.bot = bot
 
@@ -12,9 +12,9 @@ class Test(commands.Cog, description='Test description'):
         print(f'*****************\nTest Cog Event!\n*****************', flush = True)
 
     # Commands
-    @commands.command()
+    @commands.command(brief='TestCog command brief description.', description='TestCog command full description.')
     async def TestCog(self, ctx):
-        await ctx.send('Test Cog Commanded!')
+        await ctx.send('TestCog Commanded!')
         await ctx.send('TEST YEEEE!')
 
 async def setup(bot):

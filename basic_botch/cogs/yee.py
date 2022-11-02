@@ -3,7 +3,7 @@ import constant
 from discord.ext import commands
 
 # Yee Cog with description defined 
-class Yee(commands.Cog, description='I YEEE! when you yee.'):
+class Yee(commands.Cog, description='Everything related to YEEE!'):
     def __init__(self, bot):
          self.bot = bot
         
@@ -16,7 +16,7 @@ class Yee(commands.Cog, description='I YEEE! when you yee.'):
 
     # Yee command
     # Able to YEEE! in any channel
-    @commands.command()
+    @commands.command(brief='Tell me when to YEEE!', description='I YEEE! when you yee.')
     async def yee(self, ctx): 
         await ctx.send(f'YEEE!')
 
