@@ -6,6 +6,8 @@ import os
 #import asyncio # For use AFTER bot login
 import constant # Imports constant.py with all .env file variables
 
+from pretty_help import PrettyHelp # discord-pretty-help package
+
 intents = discord.Intents.default()
 intents.message_content = True # Allows bot to check message content
 intents.members = True # Allows bot to track member/user updates
@@ -30,7 +32,7 @@ class BasicBotch(commands.Bot):
         #print(f'-----------------\nFinished Loading Cogs!\n-----------------\n')
     
 # Instantiates bot and defines command prefix, description, required intents, owner ID, and command case sentitivity
-botch = BasicBotch(command_prefix=constant.PREFIX, description="I'm a basic botch.", intents=intents, owner_id = constant.OWNER, case_insensitive=True)
+botch = BasicBotch(command_prefix=constant.PREFIX, help_command=PrettyHelp(), description="I'm a basic botch.", intents=intents, owner_id = constant.OWNER, case_insensitive=True)
 
 # Runs the bot after setup completion
 botch.run(constant.TOKEN, reconnect = True)
