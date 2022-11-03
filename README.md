@@ -66,3 +66,4 @@ Python 3.8 and higher is currently supported.
 - [x] pip pretty help
 - [ ] fix unloading procedure
 - [ ] .env channel ID
+- [ ] run on gcp
