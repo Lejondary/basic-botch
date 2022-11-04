@@ -4,7 +4,7 @@
 
 Basic Bot(ch) is a simple Discord chatbot that will respond with a reciprocating YEEE when you yee!  
 
-Developed using the Discord library and API, discord.py v2.0, for Python 3.10.8.  
+Developed using the Discord API and library, discord.py v2.0, for Python 3.10.8.  
 -  Documentation:   
    `https://discordpy.readthedocs.io/en/stable/`  
 -  v2.0 Changes:  
